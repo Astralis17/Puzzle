@@ -72,8 +72,8 @@ h1 {
     margin: 0;
 }
 
-.Pages div, a, img {
-    margin: 2.5%;
+.Pages ul, a, img {
+    margin: 7.5px;
     padding: 2.5px;
     border-radius: 10px;
     background-color: crimson;
@@ -83,20 +83,45 @@ h1 {
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
-
-.Pages div {
-    margin: 2.5%
-}
 .Pages img {
     margin: 0;
     width: 130px;
     height: 200px;
 }
-
 .Pages span{
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-bottom: 0;
 }
 
+.Link_List {
+    white-space-collapse: nowrap;
+    text-align: center;
+    padding: 0;
+}
+
+.Link_List a {
+    background-color: #277ca5;
+    color: aqua;
+    text-decoration: none;
+    margin: 5px;
+    padding: 15px;
+    width: 70px;
+    text-align: center;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: indigo;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
 
 @media only screen and (max-width: 700px){
     .center {
@@ -115,8 +140,14 @@ h1 {
         margin: 1.5%;
         padding: 4%;
     }
-    .Pages div, a, img {
-        margin: 2.5px;
+    .Pages ul, a, img {
+        margin: 2%;
         padding: 2.5px;
+    }
+    .Pages ul {
+        margin-right: 1%;
+        margin-left: 2%;
+        padding-right: 7.5px;
+        padding-left: 2.5px;
     }
 }
