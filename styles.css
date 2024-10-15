@@ -110,12 +110,15 @@ h1 {
 }
 
 .bottom {
+    color: #00eeffce;
+    text-decoration: none;
+    font-size: 9px;
     position: absolute;
     bottom: 0;
-    right: 0;
-    background-color: indigo;
-    margin: 10px;
-    padding: 15px;
+    left: 0;
+    background-color:rebeccapurple;
+    margin: 5px;
+    padding: 8px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
