@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
-    <title></title>
+    <title>Book</title>
 
     <link href="../../../styles.css" rel="stylesheet" type="text/css" media="all">
     <link rel="icon" type="image/x-icon" href="../../../Assets/favicon.ico">
@@ -24,6 +24,24 @@
         color: yellow;
         font-weight: 800;
       }
+      .Link_List a{
+        background-color: #574ba7;
+        width:auto;
+        color: aqua;
+        margin: 5px;
+        padding: 0px;
+        border-radius: 0;
+      }
+      .Link_List a img{
+        height:250px;
+        width:160px
+      }
+      @media only screen and (max-width: 700px){
+        .Link_List a img{
+          height:210px;
+          width:140px
+        }
+      }
     </style>
   </head>
 
@@ -39,8 +57,20 @@
       <p style = "font-size: x-large; text-decoration: underline; padding-bottom: 10px;">The Ottendorf Cipher</p>
       <p>The Ottendorf Cipher (also known as the Book Cipher) is a cipher that uses a piece of text (typically a book) as a key and a set of numbers to reference words or letters from said key text.</p>
       <p>The formatting is as follows, <page>Page</page>:<line>Line</line>:<word>Word</word> (and then sometimes <letter>Letter</letter>)
-                                    <br>For example, the code <page>17</page>:<line>9</line>:<word>3</word> references the <word>3rd word</word> on the <line>9th line</line> of the <page>17th page</page>
+      <br>For example, the code <page>17</page>:<line>9</line>:<word>3</word> references the <word>3rd word</word> on the <line>9th line</line> of the <page>17th page</page>
+      <br>Now for actual application, we'll use this image
       </p>
+      <div class = "Link_List">
+        <a href = "../../card/pages/1.png">
+          <img src = "../../card/pages/4.png">
+        </a>
+        <a href = "../../card/pages/4.png">
+          <img src = "../../card/pages/4.png">
+        </a>
+        <a>
+          <p>Ok so</p>
+        </a>
+      </div>
 
     </div>
 
