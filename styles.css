@@ -12,6 +12,7 @@ hidden {
     color: #574ba7;
     font-size: 5px;
     margin: 0;
+    padding: 0;
 }
 
 .center {
@@ -112,6 +113,7 @@ hidden {
     padding: 15px;
     width: 80px;
     text-align: center;
+    vertical-align: middle;
     border-radius: 10px;
     display: inline-block;
 }
@@ -126,11 +128,55 @@ hidden {
     margin: 10px;
     padding: 12px;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
     width: 15%;
+}
+
+.polybius {
+    background-color: #277ca5;
+    border-radius: 10px;
+    width: 240px;
+    padding: 5px;
+    margin-bottom: 15px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.polybius a {
+    text-align: center;
+    margin: 5px;
+    background-color: #113547;
+    border-radius: 4px;
+    display:inline-block;
+    font-size: large;
+    width: 30px;
+    height: 30px;
+    animation-duration: 0.4s;
+    line-height: 30px;
+}
+
+.polybius a:hover {
+    background-color: #00eeffce;
+    color: #113547;
+    animation-duration: 0.4s;
+}
+.polybius a.none {
+    background-color: #277ca5;
+    color: #277ca5;
+    height: 1px;
+}
+.polybius a.none:hover {
+    background-color: #277ca5;
+    color: #277ca5;
+}
+
+.mobile-only {
+    display: none;
+}
+.desktop-only {
+    display: contents;
 }
 
 @media only screen and (max-width: 700px){
@@ -138,6 +184,7 @@ hidden {
         margin: 0;
         padding: 15px;
     }
+
     .top a {
         margin: 3%;
         padding: 3%;
@@ -145,11 +192,11 @@ hidden {
         padding-top: 13px;
         width: 35%;
     }
-
     .top a:hover{
         margin: 1.5%;
         padding: 4%;
     }
+
     .Pages ul, .Pages a, .Pages img {
         margin: 2%;
         padding: 2.5px;
@@ -164,6 +211,12 @@ hidden {
     .bottom {
         font-size: 14px;
         width: 30%;
+    }
 
+    .mobile-only {
+        display: contents;
+    }
+    .desktop-only {
+        display: none;
     }
 }

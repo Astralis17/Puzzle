@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <title>Book</title>
+
+    <link href="../../../styles.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="icon" type="image/x-icon" href="../../../Assets/favicon.ico">
+    <style>
+    </style>
+  </head>
+
+  <body class = "index_Back">
+    <div class = "top">
+      <a href = "../../..">Home</a>
+      <a href = "../.." class = "active">Hints</a>
+
+  </div>
+
+    <h1>Double Digits</h1>
+    <div class = "center">
+      <p style = "font-size: xx-large; text-decoration: underline; padding-bottom: 10px;">The Polybius Square</p>
+      <p>Have you ever heard of this? probably not (unless I've rambled about it at some point) but that's ok, I'm here to explain now</p>
+      <p>Ok so the Polybius Square is thought to be made by an ancient greek philosopher called Polybius (shocker) and it works with a grid that is filled with the alphabet which is displayed below</p>
+      <p>And we encode information by taking the co-ordinates of the letter box, starting with row and then column, so 23 is second row f g h i/j k and column, aka "H"
+      <br>You may notice that "i" and "j" take up a single box this is because if ever it's referenced it can be either of the two though typically it will be "i"
+      </p>
+      <br>
+      <div style = "font-family: monospace;" class = "polybius">
+      <a class = "none"></a><a>1</a><a>2</a><a>3</a><a>4</a><a>5</a>
+      <br><a>1</a><a>a</a><a>b</a><a>c</a><a>d</a><a>e</a>
+      <br><a>2</a><a>f</a><a>g</a><a>h</a><a>i/j</a><a>k</a>
+      <br><a>3</a><a>l</a><a>m</a><a>n</a><a>o</a><a>p</a>
+      <br><a>4</a><a>q</a><a>r</a><a>s</a><a>t</a><a>u</a>
+      <br><a>5</a><a>v</a><a>w</a><a>x</a><a>y</a><a>z</a>
+      </div>
+      <p>Ok so using the above chart/grid with the row first and column second we can encode any letter from the latin alphabet into a set of co-ordinates for this grid, this does however have it's downsides,
+     <br>It removes capitalisation, spaces and numbers, this is because those specific characters are not in the table it's not possible to encode them.<br>There are other similar ciphers which include numbers but still not spaces .</p>
+     <p style="padding-top: 10px;">Some people do however use 00 as a replacement for space</p>
+
+    </div>
+
+
+    <audio src="Assets/background.mp3" autoplay></audio>
+    <p style="color: #574ba7;" class = "mobile-only"><br><br><br><br></p>
+  </body>
+</html>
